@@ -1,4 +1,11 @@
-/* A Free Design by Bryant Smith (bryantsmith.com) */
+/*
+    Theme Name: landscaptitles
+    Theme URI: http://www.google.com
+    Author: Md. Josim Uddin
+    Author URI: http://facebook.com/josim74
+    Version: 1.0
+    Description: This is basic simple wordpress theme
+*/
 
 body {
 	margin: 0;
@@ -36,6 +43,14 @@ float:right;
 margin-top:25px;
 margin-right:10px;
 }
+#links ul{
+    list-style: none;
+}
+#links ul li{
+    float: left;
+    text-decoration: none;
+    padding: 10px 9px;
+}
 
 #links a, #links a:visited
 {
@@ -54,7 +69,7 @@ border-bottom:dotted 1px #1652B4;
 
 #header
 {
-height:60px;
+height:100px;
 
 }
 
@@ -79,6 +94,9 @@ color:#1652B4;
 	background-position:bottom;
 	padding-bottom:8px;
 	margin-top:22px;
+        height: 150px;
+        width: 750px;
+        overflow: hidden;
 }
 
 
